@@ -93,10 +93,13 @@ itemBox.forEach(item => {
 // LIGHTMODE TOGGLE
 const lightModeBtn = document.querySelector(".lightMode-btn");
 lightModeBtn.onclick = () => {
-    // lightModeBtn.classList.toggle("bi-cloud-sun-fill");
   document.body.classList.toggle("dark-mode");
   console.log(1223)
 };
+// const lightModeBtn = document.querySelector(".lightMode-btn");
+// lightModeBtn.addEventListener("clicks", function(){
+//   console.log("press")
+// })
 
 // COPYRIGHT DATE
 // const copyDate = document.querySelector("span");
