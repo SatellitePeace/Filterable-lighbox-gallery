@@ -97,6 +97,7 @@ lightModeBtn.onclick = () => {
   document.body.classList.toggle("dark-mode");
   console.log(1223)
 };
+
 // COPYRIGHT DATE
-const copyDate = document.querySelector("span");
-copyDate.innerText = new Date().getFullYear();
+// const copyDate = document.querySelector("span");
+// copyDate.innerText = new Date().getFullYear();
